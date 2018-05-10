@@ -1,0 +1,118 @@
+body {margin:3%;padding:3%}
+
+a{
+	color:white;
+	font-family: 'Press Start 2P', cursive;
+
+	text-decoration: none;
+}
+
+p{
+	color:white;
+	font-family: 'Press Start 2P', cursive;
+
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+h1{
+	font-family: 'Press Start 2P', cursive;
+	text-decoration: none;
+	color:white;
+	font-size: 30px;
+}
+
+.home-button-container {
+	width: 250px;
+    background-color: black;
+    color:white;
+    border: none;
+    padding: 3% 3%;
+    text-align: center;
+    text-decoration-color: black
+    display: inline-block;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 30px;
+  	display:block;
+  	margin: auto auto;
+}
+
+.startagain-button-container {
+	width: 600px;
+    padding: 5%;
+    background-color: none;
+    color:white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    text-decoration-color: white;
+    display: inline-block;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 30px;
+  	display:block;
+  	margin: auto auto;
+}
+
+.home-button-container:hover {
+    transform: scale(1.1);
+}
+
+.startagain-button-container:hover {
+    transform: scale(1.1);
+}
+
+
+.center-container{
+	margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.winlose-container{
+	width:100%;
+}
+
+.youtubediv{
+  display: table;
+  margin: 0 auto;
+} 
+
+
+/*.navigation-button-container {
+	width: 20%;
+    padding: 0px;
+    background-color: white;
+    color:white;
+    border: none;
+    padding: 0% 0%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 75px;
+  	display:block;
+  	margin: auto auto;
+}*/
+
+/*.navigation-button-container:hover {
+    transform: scale(1.1);
+}*/
+
+/*  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 75%;
+      margin: auto;*/
+
+
+
+/*      	margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);*/
+  }

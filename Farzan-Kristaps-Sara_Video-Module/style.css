@@ -1,0 +1,201 @@
+html,
+body {
+	margin: 0;
+	padding: 10px;
+	font-family: 'Volkhov', serif;
+	font-size: 16px;
+	color: black;
+	/*	*/
+}
+
+.title_text{
+	font-size: 2em;
+}
+
+.header {
+	display: flex;
+	padding: 10px 50px 10px 20px;
+	align-items: flex-end;
+	background-color: #2B2B2B;
+	margin: -20px -20px 0 -20px;
+	
+}
+
+.content {
+  padding: 16px;
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+
+#homelink{
+	width:30%;
+	margin-top: 10px;
+}
+
+
+
+button{
+	width: 30%;
+	padding: 10px;
+	font-size: 1.5em;
+/*	margin: 15px 3.5% 5px 3.5%;*/
+    background-color: #2B2B2B;
+	border-bottom-color: #2B2B2B;
+	border-top: #2B2B2B;
+	border-right: #2B2B2B;
+	border-left: #2B2B2B;
+	color: white;
+	margin: 0px 50px 0px auto;
+}
+
+
+
+#logo {
+
+	width: 100%;
+}
+
+
+
+.banner_ad{
+	width: 100%;
+	margin: 20px;
+}
+
+
+
+.banner_img{
+	width: 100%;
+	margin: 15px 0px 0px 0px;
+}
+
+.title_text{
+	margin: 20px 0px 20px 0px;
+}
+
+.videotile{
+	width: 60%;
+	display: inline-block;
+}
+
+.video{
+	margin: 20px;
+}
+.disp_ad{
+	float: right;
+	width: 30%;
+}
+
+.facebook{
+	float: right;
+}
+
+a{
+	color: #FACF3B;
+	text-decoration: none;
+	font-family: 'Volkhov', serif;
+}
+
+a:hover {color: black;}
+
+
+button.active a {
+    color:#fff;
+    font-weight:bold;
+	font-family: 'Volkhov', serif;
+}
+
+
+.panel2{
+	margin: 50px 0px 50px 0px;
+}
+
+.panel3{
+	margin: 50px 0px 50px 0px;
+}
+
+.panel4{
+	margin: 50px 0px 50px 0px;
+}
+
+.main_picture{
+	
+	width: 40%;
+	margin: auto;
+	margin-top: 50px;
+}
+
+#dp{
+	width: 100%;
+}
+
+
+
+.person1{
+	margin-top:100px;
+}
+
+.main_text{
+	width: 70%;
+	margin: auto;
+}
+
+.dropdown {
+/*    float: left;*/
+	width: 60%;
+/*	margin-left:30px;*/
+	text-align: right;
+/*    overflow: hidden;*/
+}
+
+.dropdown .dropbtn {
+    font-size: 1.5em;    
+    border: none;
+    outline: none;
+    color: white;
+/*    padding: 14px 16px;*/
+	
+    background-color: inherit;
+    font-family: inherit;
+    margin-left: 40px; s
+}
+
+.header a:hover, .dropdown:hover .dropbtn {
+    background-color: white;
+}
+
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #2B2B2B;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+	left: 35%;
+}
+
+.dropdown-content a {
+    float: none;
+    color: #FACF3B;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
