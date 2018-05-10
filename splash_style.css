@@ -1,0 +1,45 @@
+html,
+body {
+	background-color: #B3B2B3;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 16px;
+}
+
+.main {
+	position: absolute;
+	top: 20%;
+	left: 35%;
+	width: 30%;
+}
+
+.giphy-embed {
+	/*	height: 150%;*/
+	display: none;
+	width: 100%;
+}
+
+.leggo {
+	display: block;
+	margin: auto;
+}
+
+#gif-img {
+	display: block;
+}
+
+
+
+button {
+	background-color: #3B0100;
+	border: none;
+	color: #A99563;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 3em;
+}
